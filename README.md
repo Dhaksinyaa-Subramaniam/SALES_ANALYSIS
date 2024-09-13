@@ -1,13 +1,12 @@
 # SALES_ANALYSIS_PROJECT
 
-Overview
 This project presents a comprehensive sales analysis using the Adventure Works 2022 dataset. It demonstrates proficiency in data cleaning, SQL, data modeling, and visualization using Power BI to derive actionable insights for sales teams.
 
 ##Tools Used
 SQL Server Management Studio
 Power BI
 
-Project Structure
+##Project Structure
 ##Data Cleaning and Extraction
 Utilized SQL Server Management Studio
 Focused on customer, product, and sales data
