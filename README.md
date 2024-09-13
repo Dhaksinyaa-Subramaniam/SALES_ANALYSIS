@@ -1,43 +1,66 @@
-# SALES_ANALYSIS_PROJECT
+Sales Analysis Project
+This project involves a comprehensive sales analysis using the Adventure Works 2022 dataset. The analysis includes data cleaning, extraction, modeling, and visualization to provide actionable insights for the sales team.
 
-This project presents a comprehensive sales analysis using the Adventure Works 2022 dataset. It demonstrates proficiency in data cleaning, SQL, data modeling, and visualization using Power BI to derive actionable insights for sales teams.
+Table of Contents
+Project Overview
+Tools Used
+Project Phases
+1. Data Cleaning and Extraction
+2. Data Modeling
+3. Dashboard Creation
+Key Insights
+Getting Started
+Contributing
+License
+Project Overview
+The goal of this project is to perform a sales analysis using the Adventure Works 2022 dataset. The analysis aims to support the sales team by providing insights into sales performance, product mix, customer base, and geographical variations.
 
-##Tools Used
+Tools Used
 SQL Server Management Studio
 Power BI
-
-##Project Structure
-##Data Cleaning and Extraction
-Utilized SQL Server Management Studio
-Focused on customer, product, and sales data
-Ensured data quality and consistency
-
-##Data Modeling
-Implemented a star schema in Power BI with tables:
+Project Phases
+1. Data Cleaning and Extraction
+Used SQL Server Management Studio to clean and extract relevant data.
+Focused on customer, product, and sales data.
+Ensured data quality and consistency.
+2. Data Modeling
+Imported cleaned data into Power BI.
+Created a star schema data model with the following tables:
 FactInternetSales (central fact table)
 DimProduct (product dimension)
 DimCustomers (customer dimension)
 DimDate (date dimension)
 SalesBudget (for budget comparisons)
+3. Dashboard Creation
+Developed three main dashboards in Power BI:
 
-##Dashboard Creation
-Three main dashboards were developed:
 Sales Overview
+
+Key Performance Indicators (KPIs) comparing actual sales to budget.
+Sales by Product Category.
+Sales and Budget by Month (line chart).
+Top 10 Customers by Sales.
+Top 10 Products by Sales.
+Geographical sales distribution.
 Customer Details
+
+Customer-specific KPIs.
+Sales by Product Category for selected customer(s).
+Top 10 Customers.
+Top 10 Products sold to customers.
+Detailed customer sales table by month.
 Product Details
 
-##Key Features
-KPIs comparing actual sales to budget
-Sales analysis by product category
-Monthly sales and budget comparisons
-Top 10 customers and products visualizations
-Geographical sales distribution
-Customer and product-specific analyses
+Product-specific KPIs.
+Sales by Product Category.
+Top 10 Customers for selected product(s).
+Top 10 Products.
+Detailed product sales table by month.
 
-##Key Insights
-Recent sales performance exceeded budget, but overall shows negative variance
-Bikes category dominates sales (96.46%)
-Top 10 customers significantly contribute to sales
-Mountain bikes (especially Mountain-200) are bestsellers
-Clear seasonal patterns with peaks in November and December
-Varying sales performance across geographic regions
+Key Insights
+Sales Performance: Recent sales ($16,351,550) exceeded the budget ($15,300,000), showing strong short-term performance, but the overall dataset indicates a significant negative variance against the total budget.
+Product Mix: The Bikes category dominates sales (96.46%), while Accessories and Clothing contribute minimally.
+Customer Base: Top 10 customers contribute significantly to sales, with a relatively even distribution among them.
+Product Trends: Mountain bikes, particularly the Mountain-200 model, are the best-selling products, followed by Road-150 bikes.
+Seasonal Patterns: Sales peak in November and December, with noticeable dips in February and April.
+Geographic Variations: Sales performance varies across regions, suggesting opportunities for targeted strategies.
